@@ -2,8 +2,9 @@ use codeup_test_db;
 
 CREATE TABLE users (
                        id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-                       email VARCHAR(45) NOT NULL,
-                       password VARCHAR(20) NOT NULL,
+                       username VARCHAR(100) NOT NULL,
+                       email VARCHAR(250) NOT NULL,
+                       password VARCHAR(250) NOT NULL,
                        PRIMARY KEY (id)
 );
 CREATE TABLE ads (
